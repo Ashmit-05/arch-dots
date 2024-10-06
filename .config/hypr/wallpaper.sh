@@ -1,10 +1,7 @@
-#!/bin/bash
+#! /usr/bin/bash
 
-# Directory containing your wallpapers
-WALLPAPER_DIR="/home/sparrow/Wallpapers/"
+wall=$(find /home/sparrow/Wallpapers/ -type f,l | shuf -n 1)
+# monitor=`hyprctl mointors | grep Monitor | awk '{print $2}'`
+swaybg -i $wall -m fill
 
-# Select a random wallpaper
-WALLPAPER=$(find "$WALLPAPER_DIR" -type f | shuf -n 1)
-
-# Set the wallpaper using hyprpaper
-hyprpaper set "$WALLPAPER"
+# echo $wall

@@ -19,7 +19,7 @@
     "pulseaudio",
     "network",
     "battery",
-    "battery#bat2",
+    // "battery#bat2",
     "clock",
     "tray"
     // "custom/power"
@@ -92,8 +92,9 @@
   },
   "clock": {
     // "timezone": "America/New_York",
+    "format" : "{:%c}",
+    "interval" : 1,
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    "format-alt": "{:%Y-%m-%d}"
   },
   "cpu": {
     "format": "{usage}% ",
@@ -123,12 +124,12 @@
     },
     "format": "{capacity}% {icon}",
     "format-full": "{capacity}% {icon}",
-    "format-charging": "{capacity}% ",
-    "format-plugged": "{capacity}% ",
+    "format-charging": "{capacity}%  ",
+    "format-plugged": "{capacity}%  ",
     "format-alt": "{time} {icon}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
-    "format-icons": ["", "", "", "", ""]
+    "format-icons": [" ", " ", " ", " ", " "]
   },
   "battery#bat2": {
     "bat": "BAT2"
@@ -146,7 +147,7 @@
   },
   "network": {
     // "interface": "wlp2*", // (Optional) To force the use of this interface
-    "format-wifi": "{essid} ({signalStrength}%) ",
+    "format-wifi": "{essid}  ",
     "format-ethernet": "{ipaddr}/{cidr} ",
     "tooltip-format": "{ifname} via {gwaddr} ",
     "format-linked": "{ifname} (No IP) ",

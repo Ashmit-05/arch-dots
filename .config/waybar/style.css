@@ -120,13 +120,13 @@ background-color: #FFFFFF;
   }
 
   #clock {
-    /*background-color: #64727D;*/
-    border-bottom: 3px solid #64727D;
+    color: rgba(20, 221, 215, 1);
+    border-bottom: 3px solid rgba(20, 221, 215, 1);
   }
 
   #battery {
     /*background-color: #ffffff;*/
-    /*color: #000000;*/
+    color: #26A65B;
     border-bottom: 3px solid #26A65B;
   }
 
@@ -195,7 +195,7 @@ background-color: #FFFFFF;
   }
 
   #network {
-    /*background-color: #2980b9;*/
+    color: #2980b9;
     border-bottom: 3px solid #2980b9;
   }
 
@@ -205,7 +205,7 @@ background-color: #FFFFFF;
 
   #pulseaudio {
     /*background-color: #f1c40f;*/
-    /*color: #000000;*/
+    color: #f1c40f;
     border-bottom: 3px solid #f1c40f;
   }
 

@@ -2,5 +2,6 @@ configuration {
     font : "JetBrainsMono Nerd Font 17";
     show-icons : true;
     modes : "drun,run,window";
+    sidebar-mode: true;
   }
 @theme "/usr/share/rofi/themes/DarkBlue.rasi"

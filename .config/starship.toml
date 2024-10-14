@@ -24,10 +24,15 @@ $scala\
 $docker_context\
 [](fg:#06969A bg:#33658A)\
 [ ](fg:#33658A)\
+$line_break\
+[❯ ](fg:purple bg:none)\
 """
 
 # Disable the blank line at the start of the prompt
 add_newline = true
+
+[line_break]
+disabled = false
 
 # You can also replace your username with a neat symbol like   or disable this
 # and use the os module below
@@ -35,7 +40,7 @@ add_newline = true
 show_always = true
 style_user = "bg:#9A348E"
 style_root = "bg:#9A348E"
-format = '[󱗆 $user ]($style)'
+format = '[󱗆 ]($style)'
 disabled = false
 
 # An alternative to the username module which displays a symbol that

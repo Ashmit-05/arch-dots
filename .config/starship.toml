@@ -40,7 +40,7 @@ disabled = false
 show_always = true
 style_user = "bg:#9A348E"
 style_root = "bg:#9A348E"
-format = '[󱗆 ]($style)'
+format = '[󰣇 ]($style)'
 disabled = false
 
 # An alternative to the username module which displays a symbol that
@@ -62,6 +62,8 @@ truncation_symbol = "…/"
 "Downloads" = " "
 "Music" = " "
 "Pictures" = " "
+"Books" = " "
+"Projects" = " "
 # Keep in mind that the order matters. For example:
 # "Important Documents" = " 󰈙 "
 # will not be replaced, because "Documents" was already substituted before.

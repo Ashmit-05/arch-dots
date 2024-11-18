@@ -74,6 +74,6 @@ scrollback_lines        2000
 
 
 # BEGIN_KITTY_THEME
-# Base2Tone Sea Dark
+# 3024 Night
 include current-theme.conf
 # END_KITTY_THEME

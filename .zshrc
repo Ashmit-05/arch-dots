@@ -119,3 +119,10 @@ function y() {
 export HYPRSHOT_DIR=/home/sparrow/Pictures/
 eval "$(zoxide init zsh)"
 export EDITOR=nvim
+
+# bun completions
+[ -s "/home/sparrow/.bun/_bun" ] && source "/home/sparrow/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"

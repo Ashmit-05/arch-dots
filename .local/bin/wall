@@ -11,7 +11,7 @@ if [ -n "$1" ]; then
   fi
 else
   # If no argument, pick a random wallpaper from the specified directory
-  wall=$(find /home/sparrow/Wallpapers/ -type f | shuf -n 1)
+  wall=$(find /home/sparrow/Wallpapers/ -type f,l | shuf -n 1)
 fi
 
 # Set the wallpaper using swaybg

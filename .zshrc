@@ -106,6 +106,7 @@ alias icat='kitten icat'
 alias vim='nvim'
 alias ls='eza --icons'
 alias open='xdg-open'
+alias dots='/usr/bin/git --git-dir="$HOME/arch-dots/.git/" --work-tree="$HOME/arch-dots/"'
 eval "$(starship init zsh)"
 export GPG_TTY=$(tty)
 function y() {

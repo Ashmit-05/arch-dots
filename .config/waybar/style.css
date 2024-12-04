@@ -41,7 +41,7 @@ window#waybar.hidden {
 
 #workspaces button.active {
     color: #1e1e2e;
-    background-color: #9f58c4;
+    background-color: #0abdc6;
 }
 
 #workspaces button.urgent {

@@ -1,15 +1,18 @@
 agsv1
 agsv1-debug
+archlinux-themes-sddm
 base
 base-devel
 bluez
 bluez-utils
 brightnessctl
 btop
+cmatrix
 dart-sass
 efibootmgr
 exo
 eza
+fastfetch
 feh
 firefox
 garcon
@@ -20,6 +23,7 @@ gthumb
 gvfs
 htop
 hyprland
+hyprlock
 hyprpicker
 hyprshot
 imv
@@ -39,6 +43,7 @@ neofetch
 neovim
 network-manager-applet
 networkmanager
+nmap
 nwg-look
 okular
 pacman-contrib
@@ -50,8 +55,10 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 power-profiles-daemon
+python-pip
 ristretto
 rofi-wayland
+sddm
 smartmontools
 starship
 stow

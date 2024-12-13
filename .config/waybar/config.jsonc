@@ -1,6 +1,8 @@
 {
   "position" : "bottom",
   "height" : 30,
+  // "width" : 80,
+  "mode" : "dock",
   "spacing" : 5,
   "modules-left" : ["hyprland/workspaces","custom/sep","hyprland/window"],
   "modules-right" : [
@@ -23,6 +25,18 @@
     "disable-scroll": false,
     "active-only": false,
   },
+  // "hyprland/workspaces": {
+  //   "format": "{icon}: {windows}",
+  //   "format-window-separator": "|",
+  //   "window-rewrite-default": "󰘔 ",
+  //   "window-rewrite": {
+  //     "class<firefox>": "󰈹 ", 
+  //     "class<kitty>": " ", 
+  //     "class<Okular>" : " ",
+  //     "class<whatsapp>" : " ",
+  //     "class<thunar>" : " ",
+  //   },
+  // },
   "hyprland/window": {
     "format": "{}",
     "rewrite": {

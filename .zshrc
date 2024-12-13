@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="awesomepanda"
+ZSH_THEME="archcraft-dwm"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -107,7 +107,8 @@ alias vim='nvim'
 alias ls='eza --icons'
 alias open='xdg-open'
 alias dots='/usr/bin/git --git-dir="$HOME/arch-dots/.git/" --work-tree="$HOME/arch-dots/"'
-eval "$(starship init zsh)"
+alias fetch='fastfetch'
+# eval "$(starship init zsh)"
 export GPG_TTY=$(tty)
 function y() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"

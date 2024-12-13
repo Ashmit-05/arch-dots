@@ -5,10 +5,12 @@ base
 base-devel
 bluez
 bluez-utils
+brave-bin
 brightnessctl
 btop
 cmatrix
 dart-sass
+dunst
 efibootmgr
 exo
 eza
@@ -18,6 +20,7 @@ firefox
 garcon
 git
 gnome-bluetooth-3.0
+gnome-calendar
 gst-plugin-pipewire
 gthumb
 gvfs
@@ -32,6 +35,7 @@ intel-ucode
 iwd
 kitty
 libpulse
+libreoffice-still
 libva-intel-driver
 linux
 linux-firmware
@@ -55,7 +59,9 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 power-profiles-daemon
+protonvpn-cli-community
 python-pip
+ripgrep
 ristretto
 rofi-wayland
 sddm
@@ -63,6 +69,7 @@ smartmontools
 starship
 stow
 swaybg
+swaync
 swww
 thunar
 thunar-archive-plugin
@@ -77,9 +84,11 @@ vulkan-intel
 vulkan-radeon
 waybar
 wget
+whatsapp-for-linux
 wireless_tools
 wireplumber
 wl-clipboard
+wlogout
 xarchiver
 xclip
 xdg-utils
@@ -133,6 +142,7 @@ xorg-server
 yay
 yay-debug
 yazi
+zen-browser-bin
 zoxide
 zram-generator
 zsh

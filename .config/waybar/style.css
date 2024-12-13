@@ -2,8 +2,8 @@
     min-height: 0;
     /* font-family: Lexend, "Font Awesome 6 Free Solid"; */
     font-family: JetBrainsMono Nerd Font;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 800;
 }
 
 window#waybar {
